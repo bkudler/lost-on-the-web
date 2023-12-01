@@ -11,5 +11,8 @@
     "handlebars": "^4.7.8",
     "string-width": "^7.0.0",
     "x-ray": "^2.3.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
