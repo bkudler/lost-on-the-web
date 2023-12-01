@@ -1,0 +1,56 @@
+.content{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top:3%;
+}
+
+.link{
+    color: #fcb045;
+}
+
+h1{
+    color: #fcb045;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+input{
+    padding: 10px 20px 10px 20px;
+    border-width: 2px;
+    border-color: #fcb045;
+}
+
+button{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-weight: bold;  
+    border: none;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: #fcb045;
+    border-radius: 30%;
+}
+
+button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      background-color:rgba(63,94,251,1);
+    }
+    50% {
+      background-color:rgba(252,70,107,1);
+    }
+  }
+
+body {
+	font-family: Georgia,Times,Times New Roman,serif; 
+    animation: pulse 10s infinite;
+}

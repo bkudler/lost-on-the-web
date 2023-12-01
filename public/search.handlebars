@@ -1,0 +1,10 @@
+<div>
+  {{#each links}}
+    <div >
+      <a class="link" href={{this}}>{{this}}</a>
+    </div>
+  {{/each}}
+  {{#if no_links}}
+    <div>No Links Found!</div>
+  {{/if}}
+</div>
