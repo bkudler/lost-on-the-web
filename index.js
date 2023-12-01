@@ -19,7 +19,7 @@ app.use(express.static(__dirname + '/public/index.html'));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-    // app.use(express.static('public'))
+    app.use(express.static('public'))
 })
 
 
